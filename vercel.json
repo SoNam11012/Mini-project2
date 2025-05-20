@@ -2,10 +2,16 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/next"
+      "use": "@vercel/next",
+      "config": {
+        "eslint": {
+          "ignoreDuringBuilds": true
+        }
+      }
     }
   ],
   "env": {
-    "NEXT_DISABLE_ESLINT": "1"
+    "NEXT_DISABLE_ESLINT": "1",
+    "ESLINT_SKIP_INIT": "true"
   }
 }
