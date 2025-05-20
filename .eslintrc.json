@@ -2,9 +2,5 @@
   "extends": ["next/core-web-vitals"],
   "rules": {},
   "ignorePatterns": ["**/*"],
-  "env": {
-    "production": {
-      "rules": {}
-    }
-  }
+  "root": true
 }
