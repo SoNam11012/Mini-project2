@@ -1,0 +1,7 @@
+{
+  "buildCommand": "next build",
+  "ignoreCommand": "next lint",
+  "env": {
+    "NEXT_DISABLE_ESLINT": "1"
+  }
+}
